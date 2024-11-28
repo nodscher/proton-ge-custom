@@ -1190,6 +1190,7 @@ def default_compat_config():
                 "2526380", #Sword of Convallaria
                 "6030", #Star Wars - Jedi Knight II: Jedi Outcast
                 "1845910", #Dragon Age: The Veilguard
+                "2842040", #Star Wars Outlaws
                 ]:
             ret.add("gamedrive")
 
