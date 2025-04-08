@@ -8,7 +8,9 @@
     popd
 
     pushd vkd3d-proton
-    git reset --hard HEAD
+    git fetch origin
+    git checkout wmma-sandbox
+    git reset --hard origin/wmma-sandbox
     git clean -xdf
 
     popd
