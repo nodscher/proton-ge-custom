@@ -6,6 +6,11 @@ on:
       name:
         required: true
         type: string
+  workflow_dispatch:
+    inputs:
+      name:
+        required: true
+        type: string
 
 jobs:
   proton:
