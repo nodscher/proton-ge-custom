@@ -9,8 +9,7 @@
 
     pushd vkd3d-proton
     git fetch origin
-    git checkout wmma-sandbox
-    git reset --hard origin/wmma-sandbox
+    git merge wmma-sandbox
     git submodule update --init --recursive
     git clean -xdf
     popd
