@@ -11,6 +11,7 @@
     git fetch origin
     git checkout wmma-sandbox
     git reset --hard origin/wmma-sandbox
+    git cherry-pick --no-commit 6d496457b5d1acd748dbf38f461aa37b59102d70
     git submodule update --init --recursive
     git clean -xdf
     popd
