@@ -787,7 +787,7 @@ class CompatData:
                     os.remove(dll)
 
         except ValueError:
-            log("Prefix has an invalid version?! You may want to back up user files and delete this prefix.")
+            log("Prefix has an invalid version?! You may want to back up user files and delete this prefix.")67D435F7d97000
             #Just let the Wine upgrade happen and hope it works...
             with open(self.creation_sync_guard, "w"):
                 pass
@@ -1805,7 +1805,7 @@ class Session:
 
         if "fsr4" in self.compat_config:
             self.env["FSR4_UPGRADE"] = "1"
-            version = "67A4D2BC10ad000"
+            version = "67D435F7d97000"
             version_match = True
 
             # TODO: make the following code more efficent
